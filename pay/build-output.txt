@@ -1,0 +1,52 @@
+[36mvite v8.2.1 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Γ£ô 14 modules transformed.
+[lightningcss minify] Unknown at rule: @theme
+2  |  
+3  |  @layer theme {
+4  |    @theme default {
+   |          ^
+5  |      --font-sans:
+6  |        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+[lightningcss minify] Unknown at rule: @theme
+523 |  
+524 |    /* Deprecated */
+525 |    @theme default inline reference {
+    |          ^
+526 |      --blur: 8px;
+527 |      --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+[lightningcss minify] Unknown at rule: @tailwind
+947 |  
+948 |  @layer utilities {
+949 |    @tailwind utilities;
+    |             ^
+950 |  }
+951 |  
+[lightningcss minify] Unknown at rule: @source
+950 |  }
+951 |  
+952 |  @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+    |         ^
+953 |  @source '../../storage/framework/views/*.php';
+954 |  
+[lightningcss minify] Unknown at rule: @source
+951 |  
+952 |  @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+953 |  @source '../../storage/framework/views/*.php';
+    |         ^
+954 |  
+955 |  @theme {
+[lightningcss minify] Unknown at rule: @theme
+953 |  @source '../../storage/framework/views/*.php';
+954 |  
+955 |  @theme {
+    |        ^
+956 |      --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+957 |          'Segoe UI Symbol', 'Noto Color Emoji';
+rendering chunks...
+computing gzip size...
+public/build/manifest.json              0.33 kB Γöé gzip:  0.16 kB
+public/build/assets/app-thlrgto3.css   25.82 kB Γöé gzip:  7.17 kB
+public/build/assets/app-C-V3_aRe.js   190.58 kB Γöé gzip: 60.14 kB
+
+[32mΓ£ô built in 527ms[39m
